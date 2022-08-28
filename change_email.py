@@ -1,6 +1,5 @@
 import os
 
-counter = 0
 files = os.listdir('dir_name')
 for file in files:
     f = open('dir_name/' + file, 'r')
